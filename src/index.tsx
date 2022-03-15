@@ -22,7 +22,7 @@ const apiURL =
   process.env.REACT_APP_USE_LOCAL_API === 'TRUE' ? process.env.REACT_APP_DEV_API : process.env.REACT_APP_HEROKU_API;
 console.log({ apiURL });
 export const client = new ApolloClient({
-  uri: `${corsProxyServerURL}/${apiURL}`, //
+  uri: process.env.REACT_APP_USE_USE_PROXY === 'TRUE' ? `${corsProxyServerURL}/${apiURL}` : `${apiURL}`, //
   cache: new InMemoryCache()
 });
 
