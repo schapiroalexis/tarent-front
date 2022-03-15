@@ -1,6 +1,10 @@
+# on the cloud the front end is available under:
+
 https://tarent-front.herokuapp.com/
 
-# the project will be available on localhost:3000
+# running local the project will be available under
+
+localhost:3000
 
 # install the project:
 
