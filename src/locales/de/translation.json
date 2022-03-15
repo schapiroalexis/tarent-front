@@ -1,0 +1,150 @@
+{
+  "notFound": {
+    "headMsg": "Es tut uns leid - hier ist etwas schiefgelaufen",
+    "bodyMsg": "Leider gibt es die von Ihnen gesuchte Seite nicht oder nicht mehr.",
+    "bodyMsg2": "Zurueck zum Homepage"
+  },
+  "unauthorized": {
+    "headMsg": "Sie haben keine Zugangsberechtigung",
+    "bodyMsg": "Bitte kontaktieren Sie ihren SysAdmin"
+  },
+  "tenantTable": {
+    "tenantId": "Mieter-ID",
+    "tenantCode": "Haltecode",
+    "tenantName": "Mietername",
+    "active": "Aktiv",
+    "actions": "Aktionen",
+    "noDataFound": "Keine Mieterliste gefunden. Klicken Sie auf der Startseite auf Mieter erstellen, um den neuen Mieter hinzuzufügen.",
+    "noDataFoundTitle": "Keine Daten verfügbar"
+  },
+  "wrapperTable": {
+    "wrapperId": "WrapperId",
+    "wrapperTypeName": "WrapperTypeName",
+    "systemName": "Systemname",
+    "dataDomainCode": "dataDomainCode",
+    "activationStatus": "Aktivierungsstatus",
+    "actions": "Aktionen",
+    "noDataFound": "Keine Wrapper-Daten für den ausgewählten Tenant-Code gefunden.",
+    "noDataFoundTitle": "Keine Daten verfügbar"
+  },
+  "common": {
+    "changesTitle": "Bestatige deine Anderungen",
+    "changesDesc": "Mochtest du deine Anderungen speichern? Wenn Sie nicht speichern, gehen die Anderungen dauerhaft verloren.",
+    "deleteDomainTitle": "Mochten Sie dieses Domanenelement loschen?",
+    "deleteWarning": "Diese Aktion ist dauerhaft und kann nicht ruckgangig gemacht werden.",
+    "dontDelete": "Nicht loschen",
+    "deleteWrapperTitle":"Mochten Sie diesen Wrapper loschen?",
+    "delete": "Loschen",
+    "save": "Speichern",
+    "dontSave": "Nicht speichern",
+    "download_Title": "Herunterladen",
+    "upload_Title": "Hochladen",
+    "submitChange": "Anderungen einreichen",
+    "cancel": "Abbrechen",
+    "proceed": "Fortsetzen",
+    "makeTenantBackUp": "Kopie und Fortsetzen",
+    "uploadJSONTitle": "Uploading JSON file",
+    "uploadJSONMsg": "WARNING: the file you are trying to upload will replace matching values. If you want to make a backup first and then proceed, click on the back up button"
+  },
+  "newTenantCode": {
+    "newTenantSaveSuccess": "Mandantencode erfolgreich erstellt",
+    "newTenantErrorCreation": "Mandantencode konnte nicht erstellt werden",
+    "newTenantErrorExists": "Mietercode existiert bereits",
+    "newTenantPageTitle": "Neuer Mieter",
+    "newTenantSubheadInfo": "Mietercode: Bitte alle Pflichtfelder ausfüllen",
+    "newTenantReject": "Nicht speichern",
+    "newTenantAccept": "Speichern",
+    "newTenantModelTitle": "Neuer Mietercode",
+    "newTenantModelContent": "neuen Mietercode posten"
+  },
+  "Create_Tenant_Code": "Heim",
+  "homeLabels": {
+    "createTenantCode": "Mandanten erstellen",
+    "createTenantCodeDesc": "Hier können Sie einen Tenant mit seinen Eigenschaften hinzufügen, einschließlich Systeme, Domänenrollen und Wrapper",
+    "home": " Heim",
+    "homeDesc": "Startseite",
+    "tenantsList": " Mieterliste",
+    "tenantsListDesc": "Hier finden Sie eine Tabelle mit den aktuell verfügbaren Mietern und können bei Bedarf einzeln einsehen",
+    "tenantDetails": "Mieterdetails",
+    "tenantDetailsDesc": "Hier finden Sie Details zum Mieter"
+  },
+  "mainMenu": {
+    "home": "Heim",
+    "newTenant": "Neuer Mieter",
+    "tenants": "Mieterinnen"
+  },
+  "systemLabels": {
+    "title": "Systeme",
+    "systemCode": "Systemcode",
+    "domainCode": "Domaincode",
+    "wrapper": "Verpackung"
+  },
+  "formDetails": {
+    "defaultWrapperLegend": "Keine Wrapper-Daten verfügbar",
+    "defaultDomainLegend": "Keine Domänenrollendaten verfügbar",
+    "tenantAvatar": "T",
+    "systemAvatar": "S",
+    "domainAvatar": "D",
+    "wrapperAvatar": "W",
+    "tenantTitle": "Mieterdetails",
+    "domainTitle": "Einzelheiten zur Domänenrolle",
+    "wrapperTitle": "Wrapper-Details",
+    "activeToggleLabel": "Aktiv",
+    "clsToggleLabel": "Use CLS",
+    "mdmToggleLabel": "MDM-gefiltert",
+    "systemHelperText": "Systemcode",
+    "domainHelperText": "Datendomänencode",
+    "wrapperHelperText": "Wrapper-Name"
+  },
+  "tenantCodeLabel": {
+    "region": "Region",
+    "source": "Quelle",
+    "id": "ID",
+    "active": "Aktiv",
+    "tenantName": "Mietername"
+  },
+  "wrapperFields": {
+    "wrapperId": "Id",
+    "wrapperName": "Name",
+    "wrapperType": "WrapperTyp",
+    "dataDomainCode": "Daten-Domain-Code",
+    "host": "Gastgeber",
+    "port": "Hafen",
+    "basepath": "Basispfad",
+    "credentials": "Referenzen",
+    "createdDate": "Erstellungsdatum",
+    "lastUpdatedDate": "Datum der letzten Aktualisierung",
+    "additionalInfo": "zusätzliche Information",
+    "active": "Aktiv",
+    "id": "ID",
+    "noDataFound": "Wrapper-ID existiert nicht, bitte geben Sie die gültige Wrapper-ID ein, um die Details anzuzeigen.",
+    "noDataFoundTitle": "Keine Daten verfügbar"
+  },
+  "domainRoleFields": {
+    "systemCode":"Systemcode",
+    "domainRoleId": "Rollen-ID",
+    "dataDomainCode": "Datendomänencode",
+    "systemRoleCode": "System rolle kode",
+    "createdDate": "Erstellungsdatum",
+    "lastUpdatedDate": "Datum der letzten Aktualisierung",
+    "active":"Aktivierungsflag",
+    "noDataFound": "Für den ausgewählten Mandanten wurde keine Domänenrollenliste gefunden. Bitte überprüfen.",
+    "noDataFoundTitle": "Keine Daten verfügbar",
+    "actions": "Aktionen"
+  },
+  "tenantFields": {
+    "tenantId": "Id",
+    "tenantCode": "Code",
+    "tenantName": "Name",
+    "tid": "T ID",
+    "createdDate": "Erstellungsdatum",
+    "lastUpdatedDate": "Datum der letzten Aktualisierung",
+    "active": "Aktiv",
+    "title": "Hauptinformationen"
+  },
+  "tenantHeadIcon": {
+    "addIconWrapper": "Neuen Wrapper hinzufügen",
+    "addIconDomain": "Neue Domäne hinzufügen",
+    "activeLable": "Aktivierungsstatus"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "unauthorized": {
+    "headMsg": "Unauthorized",
+    "bodyMsg": "The page you are trying to call is out of your user´s scope. Please contact your system administrator."
+  },
+  "notFound": {
+    "headMsg": "Not Found ",
+    "bodyMsg": "The requested URL was not found on this server. That’s all we know.",
+    "bodyMsg2": "Take me back to the previous screen",
+    "title": "4😢4"
+  },
+  "tenantTable": {
+    "tenantId": "Tenant Id",
+    "tenantCode": "Tenant Code",
+    "tenantName": "Tenant Name",
+    "active": "Active",
+    "actions": "Actions",
+    "noDataFound": "No tenant List found, Click on create tenant from home page to add the new tenant.",
+    "noDataFoundTitle": "No data available"
+  },
+  "wrapperTable": {
+    "wrapperId": "Wrapper Id",
+    "wrapperTypeName": "Wrapper type name",
+    "systemName": "System name",
+    "dataDomainCode": "Data domain code",
+    "activationStatus": "Activation status",
+    "actions": "Actions",
+    "noDataFound": "No wrapper data found for the selected tenant code.",
+    "noDataFoundTitle": "No data available"
+  },
+  "common": {
+    "changesTitle": "Confirm your changes",
+    "changesDesc": "Do you want to save your changes? If you don't save, changes will be permanently lost.",
+    "deleteDomainTitle": "Do you want to delete this domain element?",
+    "deleteWarning": "This action is permanent and cannot be undone.",
+    "dontDelete": "Don't delete",
+    "delete": "Delete",
+    "deleteWrapperTitle":"Do you want to delete this wrapper?",
+    "save": "Save",
+    "dontSave": "Don't save",
+    "download_Title": "Download",
+    "upload_Title": "Upload",
+    "submitChange": "submitChanges",
+    "cancel": "Cancel",
+    "proceed": "Proceed",
+    "makeTenantBackUp": "back up and continue",
+    "uploadJSONTitle": "Uploading JSON file",
+    "uploadJSONMsg": "WARNING: the file you are trying to upload will replace matching values. If you want to make a backup first and then proceed, click on the back up button"
+  },
+  "homeLabels": {
+    "createTenantCode": "Create Tenant",
+    "createTenantCodeDesc": "Here you can add a Tenant with its properties, including systems, domain roles and wrappers",
+    "home": " Home",
+    "homeDesc": "Home Page",
+    "tenantsList": " Tenant List",
+    "tenantsListDesc": "Here you can find a table with current Tenants available and you can inspect one by one if needed",
+    "tenantDetails": "Tenant Details",
+    "tenantDetailsDesc": "Here you can find details of Tenant"
+  },
+  "newTenantCode": {
+    "newTenantSaveSuccess": "Tenant Code successfully created",
+    "newTenantErrorCreation": "Tenant Code could not be created",
+    "newTenantErrorExists": "Tenant Code already exists",
+    "newTenantPageTitle": "New tenant",
+    "newTenantSubheadInfo": "Tenant Code: Please complete all required fields",
+    "newTenantReject": "Don't save",
+    "newTenantAccept": "Save",
+    "newTenantModelTitle": "New Tenant Code",
+    "newTenantModelContent": "post new tenant code"
+  },
+  "mainMenu": {
+    "home": "Home",
+    "newTenant": "New Tenant",
+    "tenants": "Tenants"
+  },
+  "systemLabels": {
+    "title": "Systems",
+    "systemCode": "System Code",
+    "domainCode": "Domain Code",
+    "wrapper": "Wrapper"
+  },
+  "formDetails": {
+    "defaultWrapperLegend": "No Wrapper data available",
+    "defaultDomainLegend": "No Domain Role data available",
+    "tenantAvatar": "T",
+    "systemAvatar": "S",
+    "domainAvatar": "D",
+    "wrapperAvatar": "W",
+    "tenantTitle": "Tenant Details",
+    "domainTitle": "Domain Role Details",
+    "wrapperTitle": "Wrapper Details",
+    "activeToggleLabel": "Active",
+    "clsToggleLabel": "Use CLS",
+    "mdmToggleLabel": "MDM Filtered",
+    "systemHelperText": "System Code",
+    "domainHelperText": "Data Domain Code",
+    "wrapperHelperText": "Wrapper Name"
+  },
+  "wrapperFields": {
+    "wrapperId": "Id",
+    "wrapperName": "Name",
+    "wrapperType": "Wrapper Type",
+    "dataDomainCode": "Data Domain Code",
+    "host": "Host",
+    "port": "Port",
+    "basepath": "Base Path",
+    "credentials": "Credentials",
+    "createdDate": "Created Date",
+    "lastUpdatedDate": "Last Updated Date",
+    "additionalInfo": "Additional Information",
+    "active": "Active",
+    "id": "ID",
+    "noDataFound": "Wrapper Id does not exists, Please enter the valid WrapperId to view the details.",
+    "noDataFoundTitle": "No data available"
+  },
+  "domainRoleFields": {
+    "systemCode":"System Code",
+    "domainRoleId": "Role Id",
+    "dataDomainCode": "Data Domain Code",
+    "systemRoleCode": "System Role Code",
+    "createdDate": "Created Date",
+    "lastUpdatedDate": "Last Updated Date",
+    "active":"Activation flag",
+    "noDataFound": "There is no Domain Role list found for the selected tenant, Please check.",
+    "noDataFoundTitle": "No data available",
+    "actions": "Actions"
+  },
+  "tenantFields": {
+    "tenantId": "Id",
+    "tenantCode": "Code",
+    "tenantName": "Name",
+    "tid": "TID",
+    "createdDate": "Created Date",
+    "lastUpdatedDate": "Last Updated Date",
+    "active": "Active",
+    "title": "mainData"
+  },
+  "tenantCodeLabel": {
+    "region": "Region",
+    "source": "Source",
+    "id": "ID",
+    "active": "Active",
+    "tenantName": "Tenant Name"
+  },
+  "Success": {
+    "headMsg": "Success!!",
+    "bodyMsg": "Data Saved!!"
+  },
+  "Save_Error": {
+    "headMsg": "Failed",
+    "bodyMsg": "Could not save the data."
+  },
+  "Network": {
+    "headMsg": "Failed",
+    "bodyMsg": "Network Failure. Please contact your system administrator."
+  },
+  "Cancel": {
+    "headMsg": "Cancel",
+    "bodyMsg": "Are you sure you want to cancel?"
+  },
+  "Delete": {
+    "headMsg": "Delete",
+    "bodyMsg": "Do you want to delete?"
+  },
+  "Email": {
+    "headMsg": "Success!!",
+    "bodyMsg": "Notification sent successfully!!"
+  },
+  "Confirm": {
+    "headMsg": "Confirm!!",
+    "bodyMsg": "Click 'OK' to confirm."
+  },
+  "fieldsValidation": {
+    "headMsg": "Validation",
+    "bodyMsg": "Please enter mandatory details."
+  },
+  "wrapperCreation": {
+    "headMsg": "Success!!",
+    "bodyMsg": "Wrapper created successfully!!"
+  },
+  "dateValidationTo": {
+    "headMsg": "Invalid date",
+    "bodyMsg": " 'To' date cannot be greater than from date"
+  },
+  "fieldsValidationAll": {
+    "headMsg": "Validation",
+    "bodyMsg": "All fields are mandatory."
+  },
+
+  "parentTenantsLabel": {
+    "tenentId": "ID"
+  },
+  "dashBoard": {
+    "routeLabels": {
+      "lableCreate": "Create Tenant Code",
+      "lableList": "Tenants List",
+      "lableDetails": "Tenant Details"
+    }
+  },
+  "tenantHeadIcon": {
+    "addIconWrapper": "Add New Wrapper",
+    "addIconDomain": "Add New Domain",
+    "activeLable": "Activation Status"
+  }
+}
